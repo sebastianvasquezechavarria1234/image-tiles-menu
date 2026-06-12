@@ -1,6 +1,6 @@
 # Image Tiles Menu Animation ✨
 
-![Preview](img/preview.jpg)
+![Preview](img/preview.jpg?v=2)
 
 ## 📖 Descripción del Proyecto
 
