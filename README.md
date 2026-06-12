@@ -2,35 +2,35 @@
 
 ![Preview](img/preview.jpg?v=2)
 
-## 📖 Descripción del Proyecto
+## 📖 Project Description
 
-Este proyecto es una animación interactiva y fluida donde una cuadrícula de fragmentos de imagen (tiles) se transforma en una imagen completa cuando se hace clic en un elemento del menú. Es un efecto visual moderno y atractivo que añade dinamismo a las transiciones de páginas o galerías.
+This project is an interactive and fluid web animation where a grid of image tiles smoothly transforms into a full-screen image when a menu item is clicked. It's a modern and engaging visual effect that adds dynamism to page transitions or galleries.
 
-Ideal para presentar productos, menús interactivos o portafolios creativos.
+Ideal for showcasing products, interactive menus, or creative portfolios.
 
-## 🚀 Tecnologías y Herramientas
+## 🚀 Technologies & Tools
 
-El proyecto está construido utilizando tecnologías modernas y librerías especializadas para animaciones complejas:
+The project is built using modern technologies and specialized libraries for complex animations:
 
-- **HTML5 & CSS3:** Estructura, diseño de la cuadrícula y variables para un mantenimiento sencillo.
-- **JavaScript (ES6+):** Lógica del menú y manejo de eventos.
-- **GSAP (GreenSock Animation Platform):** Motor principal para animaciones suaves y de alto rendimiento.
-- **Flip (GSAP Plugin):** Crucial para realizar la transición sin problemas de los tiles a la imagen completa de manera fluida y responsiva.
-- **Splitting.js:** Para la animación de entrada de los textos.
-- **ImagesLoaded:** Para evitar que las animaciones comiencen antes de que todas las imágenes estén disponibles.
+- **HTML5 & CSS3:** Structure, grid layout, and CSS variables for easy maintenance.
+- **JavaScript (ES6+):** Menu logic and event handling.
+- **GSAP (GreenSock Animation Platform):** The core engine for smooth, high-performance animations.
+- **Flip (GSAP Plugin):** Crucial for seamlessly transitioning the image tiles into the full-screen image in a fluid and responsive way.
+- **Splitting.js:** Used for the text entrance animations.
+- **ImagesLoaded:** Ensures that animations don't start before all images are fully loaded.
 
-## 🛠️ Instalación y Uso
+## 🛠️ Installation & Usage
 
-1. Clona este repositorio o descarga los archivos.
-2. No se requieren instalaciones mediante Node.js/NPM, ya que las librerías están incluidas de forma local en la carpeta `js/`.
-3. Abre el archivo `index.html` en tu navegador.
-   > **Nota importante:** Debido a que el proyecto utiliza ES Modules (`<script type="module">`), debes ejecutarlo en un **servidor local** (por ejemplo, usando la extensión Live Server de VSCode) para evitar errores de CORS en el navegador.
+1. Clone this repository or download the files to your local machine.
+2. No Node.js/NPM installation is required, as all libraries are included locally within the `js/` folder.
+3. Open the `index.html` file in your browser.
+   > **Important Note:** Because the project uses ES Modules (`<script type="module">`), you must run it on a **local server** (e.g., using the Live Server extension in VSCode) to avoid CORS errors in the browser.
 
-## 💡 Detalles Adicionales
+## 💡 Additional Details
 
-- El diseño es completamente funcional y las imágenes fueron generadas originalmente con Midjourney.
-- El favicon se ha actualizado con el emoji ✨ integrado directamente en el HTML.
+- The design is fully functional, and the images were originally generated using Midjourney.
+- The favicon has been updated with the ✨ emoji integrated directly into the HTML.
 
 ---
 
-*Desarrollado y adaptado para demostraciones de animaciones web modernas.*
+*Developed and adapted for modern web animation demonstrations.*
