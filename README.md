@@ -1,32 +1,36 @@
-# Image Tiles Menu Animation
+# Image Tiles Menu Animation ✨
 
-An animation featuring image tiles that transform into a full image when a menu item is clicked.
+![Preview](img/preview.png)
 
-![Image Title](https://tympanus.net/codrops/wp-content/uploads/2023/04/imagetilesmenuanimation.jpg)
+## 📖 Descripción del Proyecto
 
-[Article on Codrops](https://tympanus.net/codrops/?p=71727)
+Este proyecto es una animación interactiva y fluida donde una cuadrícula de fragmentos de imagen (tiles) se transforma en una imagen completa cuando se hace clic en un elemento del menú. Es un efecto visual moderno y atractivo que añade dinamismo a las transiciones de páginas o galerías.
 
-[Demo](http://tympanus.net/Development/ImageTilesMenu/)
+Ideal para presentar productos, menús interactivos o portafolios creativos.
 
+## 🚀 Tecnologías y Herramientas
 
-## Installation
+El proyecto está construido utilizando tecnologías modernas y librerías especializadas para animaciones complejas:
 
-Run this demo on a [local server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server).
+- **HTML5 & CSS3:** Estructura, diseño de la cuadrícula y variables para un mantenimiento sencillo.
+- **JavaScript (ES6+):** Lógica del menú y manejo de eventos.
+- **GSAP (GreenSock Animation Platform):** Motor principal para animaciones suaves y de alto rendimiento.
+- **Flip (GSAP Plugin):** Crucial para realizar la transición sin problemas de los tiles a la imagen completa de manera fluida y responsiva.
+- **Splitting.js:** Para la animación de entrada de los textos.
+- **ImagesLoaded:** Para evitar que las animaciones comiencen antes de que todas las imágenes estén disponibles.
 
-## Credits
+## 🛠️ Instalación y Uso
 
-- Images generated with [Midjourney](https://midjourney.com/)
+1. Clona este repositorio o descarga los archivos.
+2. No se requieren instalaciones mediante Node.js/NPM, ya que las librerías están incluidas de forma local en la carpeta `js/`.
+3. Abre el archivo `index.html` en tu navegador.
+   > **Nota importante:** Debido a que el proyecto utiliza ES Modules (`<script type="module">`), debes ejecutarlo en un **servidor local** (por ejemplo, usando la extensión Live Server de VSCode) para evitar errores de CORS en el navegador.
 
-## Misc
+## 💡 Detalles Adicionales
 
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [GitHub](https://github.com/codrops), [Instagram](https://www.instagram.com/codropsss/)
+- El diseño es completamente funcional y las imágenes fueron generadas originalmente con Midjourney.
+- El favicon se ha actualizado con el emoji ✨ integrado directamente en el HTML.
 
-## License
-[MIT](LICENSE)
+---
 
-Made with :blue_heart:  by [Codrops](http://www.codrops.com)
-
-
-
-
-
+*Desarrollado y adaptado para demostraciones de animaciones web modernas.*
